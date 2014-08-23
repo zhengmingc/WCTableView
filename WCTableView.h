@@ -91,6 +91,6 @@
 @property(weak,nonatomic) id<WCTableViewDataSource> WCTableViewDataSource;
 @property(weak,nonatomic) id<WCTableViewDelegate> WCTableViewDelegate;
 
--(id) initWithFrame:(CGRect)frame expandOnlyOneCell:_expandOnlyOneCell enableAutoScroll:_enableAutoScroll;
+-(id) initWithFrame:(CGRect)frame expandOnlyOneCell:(BOOL)_expandOnlyOneCell enableAutoScroll:(BOOL)_enableAutoScroll;
 
 @end
