@@ -136,6 +136,7 @@
             NSIndexPath * correspondingIndexPath;
             for (NSIndexPath * anIndexPath in expandedIndexPaths) {
                 if(anIndexPath.row == indexPath.row && anIndexPath.section == indexPath.section)
+                {alreadyExpanded = YES; correspondingIndexPath = anIndexPath;}
             }
             
             if (alreadyExpanded)
@@ -159,6 +160,8 @@
             actionToTake = 0;
         }
     }
+    
+    return cell;
 }
 
 

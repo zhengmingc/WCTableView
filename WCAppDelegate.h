@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class rootViewController;
 
 @interface WCAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) rootViewController * viewController;
 
 @end
